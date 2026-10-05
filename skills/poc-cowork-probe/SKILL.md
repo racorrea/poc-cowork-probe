@@ -1,9 +1,6 @@
 ---
 name: poc-cowork-probe
-description: >
-  Skill de PRUEBA: verifica si el hook Stop de una skill corre en Claude Desktop (Cowork) y
-  dónde corre (equipo del usuario o VM). Usar solo cuando el mensaje diga /poc-cowork-probe o
-  "probar hook de cowork". NO usar para ninguna otra tarea.
+description: "Skill de PRUEBA: verifica si el hook Stop de una skill corre en Claude Desktop (Cowork) y dónde corre (equipo del usuario o VM). Usar solo cuando el mensaje diga /poc-cowork-probe o 'probar hook de cowork'. NO usar para ninguna otra tarea."
 hooks:
   Stop:
     - hooks:
